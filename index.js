@@ -10,9 +10,16 @@ const handleHome = (req, res) => res.send('Hello from home');
 
 const handleProfile = (req, res) => res.send('You are on my profile');
 
+const betweenHome = (req, res, next) => {
+  console.log("I'm between");
+  next();
+}
 
-app.get("/", handleHome)
 
-app.get("/profile", handleProfile)
+app.get("/", handleHome);
+
+app.get("/profile", handleProfile);
+
+app.use(betweenHome);
 
 app.listen(PORT, handleListening);

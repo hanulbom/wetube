@@ -37,3 +37,7 @@ npm install body-parser
 ``` bash
 npm install cookie-parser
 ```
+
+``` bash
+npm install pug
+```

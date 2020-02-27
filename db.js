@@ -16,8 +16,8 @@ export const videos = [
         title: 'Video super',
         description: 'This is something i love',
         views:24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
-        cretor: {
+        videoFile:
+        "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",        cretor: {
             id: 121212,
             name: "woomin",
             email: "woo@min.com"
@@ -28,8 +28,8 @@ export const videos = [
         title: 'Video nice',
         description: 'This is something i love',
         views:24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
-        cretor: {
+        videoFile:
+        "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",        cretor: {
             id: 121212,
             name: "woomin",
             email: "woo@min.com"
@@ -40,8 +40,8 @@ export const videos = [
         title: 'Video cool',
         description: 'This is something i love',
         views:24,
-        videoFile: "https://archive.org/details/BigBuckBunny_124",
-        cretor: {
+        videoFile:
+        "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",        cretor: {
             id: 121212,
             name: "woomin",
             email: "woo@min.com"

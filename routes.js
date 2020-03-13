@@ -45,16 +45,16 @@ const routes = {
       return VIDEO_DETAIL;
     }
   },
-  editVideo: (id) => {
+  editVideo: id => {
     if(id){
       return `/videos/${id}/edit`;
     } else {
       return EDIT_VIDEO;
     }
   },
-  deleteVideo: (id) => {
+  deleteVideo: id => {
     if (id) {
-      return `/video/${id}/delete`;
+      return `/videos/${id}/delete`;
     } else {
       return DELETE_VIDEO;
     }

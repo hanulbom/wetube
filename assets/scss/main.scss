@@ -20,3 +20,19 @@ main {
 body {
   color: $black;
 }
+
+button,
+input {
+  padding: 7px 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 14px;
+  color: $black;
+  font-weight: 600;
+  border: solid 1px;
+  border-color: $dark-grey;
+  &::placeholder {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.7);
+  }
+}

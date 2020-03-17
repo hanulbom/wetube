@@ -43,7 +43,7 @@ export const githubLoginCallback = (accessToken, refreshToken, profile, cb) => {
 };
 
 export const postGithubLogIn = (req, res) => {
-  res.redirect(routes.home);
+  res.send(routes.home);
 };
 
 export const logout = (req, res) => {

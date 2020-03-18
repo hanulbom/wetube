@@ -21,7 +21,7 @@ passport.use(
   )
 );
 
-passport.user(
+passport.use(
   new FacebookStrategy(
     {
       clientID: process.env.FB_ID,

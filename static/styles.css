@@ -141,7 +141,7 @@ input {
     outline: none; }
 
 .u-avatar {
-  height: 50px;
+  height: 100px;
   background-color: #ff0000;
   -webkit-border-radius: 50%;
      -moz-border-radius: 50%;
@@ -514,7 +514,7 @@ input[type="submit"] {
             align-items: center;
     margin-bottom: 18px; }
     .user-profile .user-profile__header .profile__username {
-      font-size: 10px;
+      font-size: 18px;
       margin-top: 15px; }
   .user-profile .user-profile__btns {
     display: -webkit-box;

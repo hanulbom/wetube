@@ -115,6 +115,7 @@ export const userDetail = async (req, res) => {
     res.redirect(routes.home);
   }
 };
+
 export const getEditProfile = (req, res) =>
   res.render("editProfile", { pageTitle: "Edit Profile" });
 
@@ -124,14 +125,14 @@ export const postEditProfile = async (req, res) => {
     file
   } = req;
   try {
-    const user = await User.findByIdAndUpdate(req.user.id, {
+    await User.findByIdAndUpdate(req.user.id, {
       name,
       email,
       avatarUrl: file ? file.path : req.user.avatarUrl
     });
     res.redirect(routes.me);
   } catch (error) {
-    res.redirect("editProfile", { pageTitle: "Edit Profile" });
+    res.redirect(routes.editProfile);
   }
 };
 

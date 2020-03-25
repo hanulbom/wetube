@@ -1,7 +1,4 @@
 .video-detail__container {
-  video {
-    max-width: 1000px;
-  }
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,5 +37,8 @@
     .video__comment-number {
       font-size: 18px;
     }
+  }
+  .videoPlayer {
+    width: 1000px;
   }
 }

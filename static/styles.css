@@ -424,6 +424,7 @@ input[type="submit"] {
   .videoPlayer:hover .videoPlayer__controls {
     opacity: 1; }
   .videoPlayer video {
+    width: 100%;
     max-width: 100%; }
   .videoPlayer .videoPlayer__controls {
     opacity: 0;
@@ -492,8 +493,6 @@ input[type="submit"] {
      -moz-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .video-detail__container video {
-    max-width: 1000px; }
   .video-detail__container .video__info {
     width: 100%;
     max-width: 850px;
@@ -519,6 +518,8 @@ input[type="submit"] {
     margin-top: 25px; }
     .video-detail__container .video__comments .video__comment-number {
       font-size: 18px; }
+  .video-detail__container .videoPlayer {
+    width: 1000px; }
 
 .user-profile {
   width: 100%;

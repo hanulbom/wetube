@@ -11,6 +11,7 @@
     "@babel/polyfill": "^7.8.7",
     "@babel/preset-env": "^7.8.2",
     "autoprefixer": "^9.7.4",
+    "axios": "^0.19.2",
     "babel-loader": "^8.0.6",
     "body-parser": "^1.19.0",
     "connect-mongo": "^3.2.0",
@@ -44,8 +45,9 @@
     "build:assets": "WEBPACK_ENV=production webpack"
   },
   "devDependencies": {
-    "eslint-plugin-prettier": "^3.1.2",
     "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "mini-css-extract-plugin": "^0.9.0",
     "nodemon": "^2.0.2"
   }
 }
